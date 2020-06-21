@@ -1,0 +1,307 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+button{
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	outline: none;
+}
+             
+.nva{
+	width: 980px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.nva_log{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nva_case{
+	margin-right: 30px;
+}
+
+.tiltle{
+
+}
+
+
+.tiltles{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.tiltles li{
+	padding-left: 50px;
+	list-style-type: none;
+}
+
+.tiltle a{
+	text-decoration: none;
+	color: #272727;
+	display: inline-block;
+}
+
+.tiltle a:hover{
+	color: #DC3847;
+}
+
+.cash_box{
+	width: 175px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid #272727;
+	border-radius: 15px;
+	color: #000;
+	margin-top: 23px;
+}
+
+
+.LOGO_top{
+	margin-top: 30px;
+	width: 136px;
+	height: 24px;
+	margin-right: 206px;
+}
+
+.head{
+	background: url(../img/banner-2.png);
+	height: 331px;
+	background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+
+.banner-2{
+	font-family: PingFangSC-Thin;
+	font-size: 41px;
+	color: #FFFFFF;
+	letter-spacing: 10px;
+	text-align: center;
+	line-height: 72px;
+	margin-top: 20px;
+	padding-top: 70px;
+}
+
+.case{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.case_one{
+	width: 130px;
+	height: 50px;
+	font-size: 14px;
+	background: #DC3847;
+	color: #fff;
+	margin-right: 12px;
+}
+
+.case_two{
+	width: 130px;
+	height: 50px;
+	font-size: 14px;
+	background: #F2F6F9;
+	margin-right: 12px;
+}
+
+.picture{
+	display: flex;
+	justify-content: center;
+
+}
+
+.case_picture{
+	width: 482px;
+	height: 307px;
+	margin-top: 16px;
+}
+
+.case_picture_two{
+	/*background: url(../img/case-2.png);*/
+	width: 482px;
+	height: 307px;
+}
+
+.picture_content_left{
+	margin-top: 30px;
+}
+
+.picture_content_right{
+	margin-left: 16px;
+	margin-top: 30px;
+}
+
+
+.case_picture_two{
+	width: 482px;
+	height: 307px;
+	background-image: url(../img/case-2.png);
+
+}
+
+
+
+
+.box{
+	font-family: PingFangSC-Regular;
+	font-size: 28px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	margin : 0 auto;
+}
+
+.box_line{
+	width: 397px;
+	margin : 0 auto;
+	border: 1px solid #FFFFFF;
+	margin-top: 20px;
+}
+
+.box_bottom{
+	font-family: PingFangSC-Regular;
+	font-size: 20px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	padding-top: 19px;
+}
+
+
+
+
+.foot{
+	display: flex;
+	justify-content: center;
+	background: #272C33;
+	height: 188px;
+	margin-top: 100px;
+}
+
+.foot p,span{
+	color: #fff;
+}
+
+.foot p{
+	font-size: 11px;
+}
+
+.foot span{
+	font-size: 10px;
+}
+
+.line_one{
+	width: 156.3px;
+	height: 1px;
+	background: #9FA1A4;
+	margin-top: 7.8px;
+}
+
+.line_two{
+	width: 156.3px;
+	height: 1px;
+	background: #9FA1A4;
+	margin-top: 7.8px;
+}
+
+.icon{
+	margin-top: 40px;
+}
+
+.icon_introduce{
+	margin-top: 6px;
+}
+
+
+.Social_contact{
+	margin-top: 28px;
+}
+
+
+.address{
+	margin-top: 45px;
+	margin-left: 162.6px;
+	margin-right: 160.6px;
+
+}
+
+.place_name{
+	width: 100px;
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 15px;
+	margin-right: 42px;
+}
+
+.contact{
+	margin-top: 45px;
+}
+
+.Contacts{
+	margin-top: 15.2px;
+}
+
+.bottom{
+	display: flex;
+	justify-content: center;
+	background: #1F232A;
+	height: 46px;
+}
+
+.bottom_introduce{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom p{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: rgba(188,196,207,0.40);
+	letter-spacing: 0;
+	text-align: center;
+	margin-top: 17px;
+}
+
+.bottom_introduce{
+	margin-top: 16px;
+}
+
+.CASE{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	margin-right: 23px;
+}
+
+.SERVICE{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	margin-right: 23px;
+}
+
+.WE{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.box{
+	width: 336px;
+}

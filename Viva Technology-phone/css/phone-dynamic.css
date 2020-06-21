@@ -1,0 +1,392 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+#con{
+    width: 100%;
+}
+
+#con ul li{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	text-align:left;
+
+}
+
+#con li ul li{
+	background-color: #fff;
+	width: 100%;
+}
+
+#con li ul{
+	border-bottom: 1px solid #ECECEC
+}
+
+#con a{
+	font-family: PingFangSC-Regular;
+	text-decoration:none;
+	color:#414553;
+	display:block;
+	width:100%;
+	height:30px;
+	font-size: 12px;
+}
+
+ #con a:hover{
+
+ }
+
+ #con ul ul{
+ 	display:none;
+ }
+
+ #u101{
+ 	background: #FFFFFF;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+ }
+
+
+.list{
+	height: 38px;
+	padding-top:5px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ECECEC;
+	padding-left: 15px;
+}
+
+.list_one{
+	height: 38px;
+	padding-top:5px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ECECEC;
+	padding-left: 15px;
+}
+
+
+
+
+
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+.main_top{
+	width: 100%;
+	height: 199px;
+	background: url(../img/banner-2.png);
+	background-repeat:no-repeat;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-position: center 0;
+}
+
+.main_top_flax{
+	
+}
+
+.pic_one{
+	width: 74px;
+	height: 13px;
+	margin-top: 13px;
+	margin-left: 11px;
+}
+
+.pic_two{
+	width: 32px;
+	height: 32px;
+	margin-right: 7px;
+	margin-top: 5px;
+	float: right;
+}
+
+.text{
+	font-family: PingFangSC-Thin;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: 4.39px;
+	text-align: center;
+	line-height: 24px;
+}
+
+
+.main_content{
+	width: 100%;
+	height: 118.6px;
+	background: url(../img/top.png);
+	background-color: #929292;
+	margin: 0 auto;
+	margin-top: 16px;
+	position: relative;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+
+}
+
+.main_content_one{
+	width: 100%;
+	height: 118.8px;
+	background: url(../img/marshalling-5.png);
+	background-color: #929292;
+	margin: 0 auto;
+	margin-top: 50px;
+	position: relative;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+}
+
+.time{
+	width: 51px;
+	height: 50px;
+	background: #DC3847;
+}
+
+.time_top{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 17px;
+	padding-top: 6px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.time_line{
+	border: 0.5px solid #FFFFFF;
+	width: 48px;
+	margin: 0 auto;
+	margin-top: 2px;
+}
+
+.time_bottom{
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 17px;
+	text-align: center;
+	margin-top: 2px;
+}
+
+.main_content_first{
+	width: 352.8px;
+	height: 97px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	top: 90.4px;
+	left: 50%;
+	margin-left: -176px;
+}
+
+.main_content_first_left{
+	margin-left: 11.9px;
+}
+
+.subMenu{
+	display: flex;
+	justify-content: space-between;
+}
+
+.subMenu_right{
+	width: 110px;
+	height: 30px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #414553;
+	letter-spacing: 0;
+	text-align: center;
+	/*line-height: 48px;*/
+	background: #F3F7FB;
+	margin-top: 40px;
+}
+
+.subMenu_left{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #414553;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 18.37px;
+	margin-top: 17.6px;
+}
+
+.subMenu_content{
+	width: 319.5px;
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #979FAA;
+	letter-spacing: 0;
+	line-height: 17px;
+	margin-top: 4.9px;
+}
+
+
+
+
+
+
+
+
+.foot{
+	width: 100%;
+	background-color: #272C33;
+
+}
+
+
+.foot{
+	display: flex;
+	background: #272C33;
+	height: 200px;
+	margin-top: 440px;
+}
+
+.foot p,span{
+	color: #fff;
+}
+
+.foot p{
+	font-size: 9.2px;
+}
+
+.foot span{
+	font-size: 8.4px;
+}
+
+.line_one{
+	width: 156.3px;
+	height: 1px;
+	background: #9FA1A4;
+	margin-top: 7.8px;
+}
+
+.line_two{
+	width: 156.3px;
+	height: 1px;
+	background: #9FA1A4;
+	margin-top: 7.8px;
+}
+
+.icon{
+	margin-top: 48px;
+	padding-left: 10px;
+}
+
+.icon_introduce{
+	margin-top: 6px;
+	font-size: 8.25px;
+	letter-spacing: 2.25px;
+}
+
+
+.Social_contact{
+	margin-top: 28px;
+}
+
+
+.address{
+	margin-top: 15px;
+	padding-left: 5px;
+
+}
+
+.place_name{
+	width: 100px;
+	font-family: PingFangSC-Regular;
+	font-size: 8.4px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 15px;
+	margin-right: 42px;
+}
+
+.contact{
+	margin-top: 15px;
+	padding-left: 5px;
+}
+
+.Contacts{
+	margin-top: 8.2px;
+}
+
+.bottom{
+	display: flex;
+	justify-content: center;
+	background: #1F232A;
+	height: 46px;
+}
+
+.bottom_introduce{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom p{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: rgba(188,196,207,0.40);
+	letter-spacing: 0;
+	text-align: center;
+	margin-top: 17px;
+}
+
+.bottom_introduce{
+	margin-top: 16px;
+}
+
+.CASE{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	margin-right: 23px;
+}
+
+.SERVICE{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	margin-right: 23px;
+}
+
+.WE{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.box{
+	width: 336px;
+}
+
+
+.option{
+	margin-top: 15px;
+}
+
+.last{
+	width: 100%;
+	height: 25px;
+	background: #1F232A;
+}
+
+.last-p{
+	font-family: PingFangSC-Regular;
+	font-size: 7px;
+	color: rgba(188,196,207,0.40);
+	text-align: center;
+	padding-top: 7px;
+}

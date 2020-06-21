@@ -1,0 +1,318 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+button{
+	margin: 0;
+	padding: 0;
+	border: 0px;
+	outline: none;
+}
+
+.header{
+	background: url(../img/banner-4.png);
+	height: 405px;
+	background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+}
+             
+.nva{
+	width: 980px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.nva_log{
+	display: flex;
+	justify-content: space-between;
+}
+
+.nva_case{
+	margin-right: 30px;
+}
+
+.tiltle{
+
+}
+
+
+.tiltles{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.tiltles li{
+	padding-left: 50px;
+	list-style-type: none;
+}
+
+.tiltle a{
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+}
+
+.tiltle a:hover{
+	color: #DC3847;
+}
+
+.tiltle a:hover{
+	color: rgba(255,255,255,0.60);
+}
+
+.cash_box{
+	width: 175px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid #FFFFFF;
+	border-radius: 15px;
+	color: #000;
+	margin-top: 23px;
+}
+
+
+.LOGO_top{
+	margin-top: 30px;
+	/*background: #DC3847;*/
+	width: 136px;
+	height: 24px;
+}
+
+
+.banner-2{
+	font-family: PingFangSC-Thin;
+	font-size: 41px;
+	color: #FFFFFF;
+	letter-spacing: 10px;
+	text-align: center;
+	line-height: 72px;
+	margin-top: 89px;
+}
+
+.main_tiltle{
+	font-family: PingFangSC-Regular;
+	font-size: 36px;
+	color: #414553;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 56px;
+	margin-top: 117px;
+}
+
+.main_tiltle_two{
+	font-family: PingFangSC-Regular;
+	font-size: 36px;
+	color: #414553;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 56px;
+	margin-top: 75px;
+}
+
+.main{
+	width: 798px;
+	height: 192px;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.main_content{
+	padding-left: 17px;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.first{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #414553;
+	letter-spacing: 0;
+}
+
+.second{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #414553;
+	letter-spacing: 0;
+	margin-top: 25px;
+}
+
+.third{
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	color: #414553;
+	letter-spacing: 0;
+	margin-top: 15px;
+}
+
+.red_line{
+	width: 5px;
+	height: 192px;
+	background: #DC3847;
+
+}
+
+.idea{
+	margin : 0 auto;
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.Ingenuity{
+	width: 211px;
+	height: 229px;
+}
+
+.innovate{
+	width: 211px;
+	height: 229px;
+}
+
+.cooperation{
+	width: 211px;
+	height: 229px;
+}
+
+.extreme{
+	width: 211px;
+	height: 229px;
+}
+
+
+
+
+.foot{
+	display: flex;
+	justify-content: center;
+	background: #272C33;
+	height: 188px;
+	margin-top: 100px;
+}
+
+.foot p,span{
+	color: #fff;
+}
+
+.foot p{
+	font-size: 11px;
+}
+
+.foot span{
+	font-size: 10px;
+}
+
+.line_one{
+	width: 156.3px;
+	height: 1px;
+	background: #9FA1A4;
+	margin-top: 7.8px;
+}
+
+.line_two{
+	width: 156.3px;
+	height: 1px;
+	background: #9FA1A4;
+	margin-top: 7.8px;
+}
+
+.icon{
+	margin-top: 40px;
+}
+
+.icon_introduce{
+	margin-top: 6px;
+}
+
+
+.Social_contact{
+	margin-top: 28px;
+}
+
+
+.address{
+	margin-top: 45px;
+	margin-left: 162.6px;
+	margin-right: 160.6px;
+
+}
+
+.place_name{
+	width: 100px;
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	line-height: 15px;
+	margin-right: 42px;
+}
+
+.contact{
+	margin-top: 45px;
+}
+
+.Contacts{
+	margin-top: 15.2px;
+}
+
+.bottom{
+	display: flex;
+	justify-content: center;
+	background: #1F232A;
+	height: 46px;
+}
+
+.bottom_introduce{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bottom p{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: rgba(188,196,207,0.40);
+	letter-spacing: 0;
+	text-align: center;
+	margin-top: 17px;
+}
+
+.bottom_introduce{
+	margin-top: 16px;
+}
+
+.CASE{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	margin-right: 23px;
+}
+
+.SERVICE{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	margin-right: 23px;
+}
+
+.WE{
+	font-family: PingFangSC-Regular;
+	font-size: 10px;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+.box{
+	width: 336px;
+}
